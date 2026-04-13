@@ -1,0 +1,17 @@
+{
+  "name": "binance-pay-bot",
+  "version": "1.0.0",
+  "description": "Binance Pay Telegram Bot",
+  "main": "bot.js",
+  "author": "Md Rahul Islam <https://github.com/mdrahulislammri>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "mysql2": "^3.9.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.0"
+  }
+}
